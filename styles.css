@@ -1,5 +1,5 @@
 body {
-    font-family: 'Cooper Arabic Regular', sans-serif;
+    font-family: 'Cooper Arabic', sans-serif;
     background-color: #f8f8f8;
     display: flex;
     justify-content: center;
@@ -25,10 +25,10 @@ body {
 
 .name-display {
     position: absolute;
-    font-size: 3em;
+    font-size: 7em;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    bottom: 20%;
+    bottom: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
