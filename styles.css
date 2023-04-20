@@ -1,6 +1,6 @@
 body {
-    font-family: 'Cooper Arabic', sans-serif;
-    background-color: #f8f8f8;
+    font-family: 'Cooper Arabic', Regular;
+    background-color: #C3C3FC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,21 +14,21 @@ body {
 }
 
 .card {
-    position: relative;
+    position: center;
     display: inline-block;
 }
 
 #card-image {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .name-display {
     position: absolute;
-    font-size: 7em;
+    font-size: 4em;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    bottom: 40%;
+    bottom: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -38,13 +38,13 @@ body {
 }
 
 #name-input {
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 5px;
 }
 
 button {
-    font-size: 1.2em;
-    background-color: #4CAF50;
+    font-size: 1.5em;
+    background-color: #F8F8F8;
     color: white;
     border: none;
     padding: 10px 20px;
